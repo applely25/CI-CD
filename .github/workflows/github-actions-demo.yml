@@ -48,7 +48,7 @@ jobs:
 
       - name: Build
         run: |
-          npm run build
+          yarn build
           cp ./build/index.html ./build/404.html
 
       - name: Deploy to gh-pages branch
